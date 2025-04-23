@@ -1,0 +1,2 @@
+### Buscar itens
+GET http://localhost:8080/itens
