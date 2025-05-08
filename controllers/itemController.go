@@ -18,10 +18,10 @@ func (i *itemController) GetItem(ctx *gin.Context) {
 
 	item := []models.Item{
 		{
-			ID:     1,
-			Nome:   "Cadeira",
-			Tipo:   "Assento",
-			Status: "Disponível",
+			ID:       1,
+			Name:     "Cadeira",
+			Category: "Assento",
+			Status:   "Disponível",
 		},
 	}
 

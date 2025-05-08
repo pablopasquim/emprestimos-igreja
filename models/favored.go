@@ -2,8 +2,8 @@ package models
 
 type Favored struct {
 	ID       int    `json:"id"`
-	Nome     string `json:"nome"`
-	Telefone string `json:"telefone"`
-	Endereco string `json:"endereco"`
-	IgrejaID uint   `json:"igrejaID"`
+	Name     string `json:"name"`
+	Phone    string `json:"phone"`
+	Andress  string `json:"andress"`
+	ChurchID uint   `json:"church_id"`
 }

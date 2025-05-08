@@ -1,7 +1,7 @@
 package models
 
-type Igreja struct {
-	ID          int    `json:"id"`
-	Nome        string `json:"nome"`
-	Localizacao string `json:"localizacao"`
+type Church struct {
+	ID           int    `json:"id"`
+	Name         string `json:"name"`
+	localization string `json:"localization"`
 }
